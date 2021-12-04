@@ -1,10 +1,17 @@
-# Amazon_Vine_Analysis
-ETL and meta-analysis of Amazon Vine reviews with AWS, postgresql, PySpark, and Google Colab
+# Amazon Vine Analysis
 
-## Overview
-The overarching purpose of this project was to conduct a meta-analysis of Amazon reviews. Specifically it was to analyze reviews produced as part of the Amazon Vine program, where select members of Amazon's reviewer community are compensated to review sample products. The primary goal of this inquiry is to determine if there is any bias towards favorable reviews from the paid Vine members in the available data.
+## Overview of the Analysis
+This project is about analyzing reviews written by the paid members of the Amazon Vine program (an amazon service that allows manufacturers and publishers to receive reviews for their products) using Amazon Web Services (AWS) Relational Data Service (RDS), postgresql, Google Colab and PySpark.
 
-Out of the 50 datasets of product categories available to chose from, I chose to analyze reviews in the Camera category - high-value, technical products requiring experience and knowledge to effectively review. The initial ETL portion of the project was conducted, as proscribed, using AWS, postgresql, and PySpark in Google Colab. The data analysis segment was conducted using PySpark and Google Colab.
+The purpose of this project was to analyze review data to determine if there is any bias towards favorable reviews from the paid members in the available data.
+
+There were 50 datasets of product categories available to chose from Amazon Review Datasets.
+Each one contains reviews of a specific product, from clothing apparel to wireless products. I chose to analyze reviews in the Camera category.
+
+PySpark was used to extract the dataset, transfrom the data, connect to an AWS RDS instance, and load the transformed data into postrgresql pgAdmin. The complete program for the ETL (Extract-Transform-Load) can be found in the file, Amazon_Reviews_ETL.ipynb, written using Google Colab
+
+PySpark was then also used to determine if there is any bias toward favorable reviews from Vine members in the chosen dataset. The complete program for this can be found in the file, Vine_Reviews_Analysis.ipynb, written using Google Colab.
+
 
 ## Results
 To begin with, I filtered the available reviews to just those with more than 20 votes, and those which were more than 50% "helpful."
