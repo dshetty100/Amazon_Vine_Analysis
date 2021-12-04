@@ -33,5 +33,5 @@ Out of 50,516 nob-vine (unpaid) reviews, 25,300 (50.08%) were 5-star reviews.
 
 ## Summary 
 The above results shows that there is not enough evidence to suggest that there is a bias toward five-star reviews from paid Amazon Vine reviewers. To arrive at a definitive conclusion it would be useful to carry out similar analysis 
-for the paid and unpaid reviews accross a few different product categories.
+for the paid and unpaid reviews across a few different product categories.
 
