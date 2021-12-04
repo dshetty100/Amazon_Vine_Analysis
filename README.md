@@ -13,7 +13,7 @@ For the analysis, PySpark was used to extract the dataset, transform the data, c
 The available reviews from the chosen dataset was filtered to just those with more than 20 votes and those which were more than 50% "helpful."
 
 
-Results of the calculation from the filtered dataset (also see [Vine_Reviews_Analysis.ipynb](https://github.com/dshetty100/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb)) are shown below:
+Results of the calculation from the filtered dataset (also see, [Vine_Reviews_Analysis.ipynb](https://github.com/dshetty100/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) ) are shown below:
 
 ![Paid and Unpaid Reviews](images/calc_paid_and_unpaid.png)
 * There were 50,516 non-vine (unpaid) reviewers and 607 vine (paid) reviews.
