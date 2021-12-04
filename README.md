@@ -15,16 +15,16 @@ The available reviews from the chosen dataset was filtered to just those with mo
 
 Results of the calculation from the filtered dataset (also see, [Vine_Reviews_Analysis.ipynb](https://github.com/dshetty100/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) ) are shown below:
 
-![Paid and Unpaid Reviews](images/calc_paid_and_unpaid.png)
+![Paid and Unpaid Reviews](Images/paid-unpaid-reviews.png)
 * There were 50,516 non-vine (unpaid) reviewers and 607 vine (paid) reviews.
 
-![Five-star Paid and Unpaid Reviews](images/calc_fivestar_paid_and_unpaid.png)
+![Five-star Paid and Unpaid Reviews](Images/paid-unpaid-5star-reviews.png)
 * There were 25,300 non-vine (unpaid) 5-star reviewers and 257 vine (paid) 5-star reviewers.
 
-![Five-star reviews as percent of paid reviews](images/calc_paid_fivestar_per.png)
+![Five-star reviews as percent of paid reviews](Images/paid-5star-reviews-percentage.png)
 * Out of 607 total Vine (paid) reviews, 257 (42.3%) were 5-star reviews.
 
-![Five-star reviews as percent of non-paid reviews](images/calc_unpaid_fivestar_per.png)
+![Five-star reviews as percent of non-paid reviews](Images/unpaid-5star-reviews-percentage.png)
 * Out of 50,516 nob-vine (unpaid) reviews, 25,300 (50.08%) were 5-star reviews.
 
 ## Summary 
