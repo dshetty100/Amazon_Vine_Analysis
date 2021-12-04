@@ -1,20 +1,19 @@
 # Amazon Vine Analysis
 
 ## Overview of the Analysis
-This project is about analyzing reviews written by the paid members of the Amazon Vine program (an amazon service that allows manufacturers and publishers to receive reviews for their products) using Amazon Web Services (AWS) Relational Data Service (RDS), postgresql, Google Colab and PySpark.
+This project is about analyzing reviews written by the paid members of the Amazon Vine program (an amazon service that allows manufacturers and publishers to receive reviews for their products) using Amazon Web Services (AWS) Relational Data Service (RDS), postgresql, Google Colab and PySpark. The purpose of this project was to analyze review data and determine if there is any bias towards favorable reviews from the paid members in the available data.
 
-The purpose of this project was to analyze review data to determine if there is any bias towards favorable reviews from the paid members in the available data.
+There were 50 datasets of product categories available to chose from [Amazon Review Datasets] (https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 
-There were 50 datasets of product categories available to chose from Amazon Review Datasets.
+(https://public.tableau.com/app/profile/dinesh.shetty/viz/NYC_Bike_Analysis_16372636521530/NYCityBikeAnalysis?publish=yes).
 Each one contains reviews of a specific product, from clothing apparel to wireless products. I chose to analyze reviews in the Camera category.
 
-PySpark was used to extract the dataset, transfrom the data, connect to an AWS RDS instance, and load the transformed data into postrgresql pgAdmin. The complete program for the ETL (Extract-Transform-Load) can be found in the file, Amazon_Reviews_ETL.ipynb, written using Google Colab
-
-PySpark was then also used to determine if there is any bias toward favorable reviews from Vine members in the chosen dataset. The complete program for this can be found in the file, Vine_Reviews_Analysis.ipynb, written using Google Colab.
+For the analysis, PySpark was used to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into postrgresql pgAdmin. The complete program for the ETL (Extract-Transform-Load) can be found in the file, Amazon_Reviews_ETL.ipynb, written using Google Colab. PySpark was also used to determine if there is any bias toward favorable reviews from Vine members in the chosen dataset. The complete program for this can be found in the file, Vine_Reviews_Analysis.ipynb, written using Google Colab.
 
 
 ## Results
-To begin with, I filtered the available reviews to just those with more than 20 votes, and those which were more than 50% "helpful."
+
+The available reviews drom the chosen dataset was filtered to just those with more than 20 votes and those which were more than 50% "helpful."
 ![Reviews with 20+ votes, and more than 50% helpful](images/helpful_20_votes.png)
 
 Calculations were made from this filtered dataset. Results were as follows:
