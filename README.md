@@ -17,19 +17,23 @@ Results of the calculation from the filtered dataset (also see, [Vine_Reviews_An
 
 - Paid and Unpaid Reviews
 ![Paid and Unpaid Reviews](Images/paid-unpaid-reviews.png)
-* There were 50,516 non-vine (unpaid) reviewers and 607 vine (paid) reviews.
+
+There were 50,516 non-vine (unpaid) reviewers and 607 vine (paid) reviews.
 
 - Five-star Paid and Unpaid Reviews
 ![Five-star Paid and Unpaid Reviews](Images/paid-unpaid-5star-reviews.png)
-* There were 25,300 non-vine (unpaid) 5-star reviewers and 257 vine (paid) 5-star reviewers.
+
+There were 25,300 non-vine (unpaid) 5-star reviewers and 257 vine (paid) 5-star reviewers.
 
 - Five-star reviews as percent of paid reviews
 ![Five-star reviews as percent of paid reviews](Images/paid-5star-reviews-percentage.png)
-* Out of 607 total Vine (paid) reviews, 257 (42.3%) were 5-star reviews.
+
+Out of 607 total Vine (paid) reviews, 257 (42.3%) were 5-star reviews.
 
 - Five-star reviews as percent of non-paid reviews
 ![Five-star reviews as percent of non-paid reviews](Images/unpaid-5star-reviews-percentage.png)
-* Out of 50,516 nob-vine (unpaid) reviews, 25,300 (50.08%) were 5-star reviews.
+
+Out of 50,516 nob-vine (unpaid) reviews, 25,300 (50.08%) were 5-star reviews.
 
 ## Summary 
 What these numbers seems to suggest is that there is not strong bias **toward** five-star reviews from paid Amazon Vine reviewers. If anything, Vine reviews might show a tendency towards being more critical in their reviews. This conclusion could be further examined by looking at the distribution of all star-levels across paid and unpaid reviews. Also, for a more thorough analysis, this same meta-analysis should be conducted across a few different product catagories.
