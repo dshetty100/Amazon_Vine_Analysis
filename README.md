@@ -10,18 +10,21 @@ For the analysis, PySpark was used to extract the dataset, transform the data, c
 
 ## Results
 
-The available reviews drom the chosen dataset was filtered to just those with more than 20 votes and those which were more than 50% "helpful."
-![Reviews with 20+ votes, and more than 50% helpful](images/helpful_20_votes.png)
+The available reviews from the chosen dataset was filtered to just those with more than 20 votes and those which were more than 50% "helpful."
 
-Calculations were made from this filtered dataset. Results were as follows:
+
+Results of the calculation from the filtered dataset are shown below:
 ![Paid and Unpaid Reviews](images/calc_paid_and_unpaid.png)
-* Out of a total of 51,123 reviews in the dataset, 50,516 (98.81%) were unpaid and 607 (1.19%) were paid reviews.
-![Five-star Paid and Unpaid Reviews](images/calc_fivestar_paid_and_unpaid.png)
-* Out of a total of 25,473 five-star reviews, 25,300 (99.32%) were unpaid, while only 257 (1.01%) were paid.
-![Five-star reviews as percent of paid reviews](images/calc_paid_fivestar_per.png)
-* Out of 607 total paid/Vine reviews, 257 (42.3%) were 5-star reviews.
-![Five-star reviews as percent of non-paid reviews](images/calc_unpaid_fivestar_per.png)
-* Out of 50,516 unpaid reviews, 25,300 (50.08%) were 5-star reviews.
+* There were 50,516 non-vine (unpaid) reviewers and 607 vine (paid) reviews.
 
-## Summary
+![Five-star Paid and Unpaid Reviews](images/calc_fivestar_paid_and_unpaid.png)
+* There were 25,300 non-vine (unpaid) 5-star reviewers and 257 vine (paid) 5-star reviewers.
+
+![Five-star reviews as percent of paid reviews](images/calc_paid_fivestar_per.png)
+* Out of 607 total Vine (paid) reviews, 257 (42.3%) were 5-star reviews.
+
+![Five-star reviews as percent of non-paid reviews](images/calc_unpaid_fivestar_per.png)
+* Out of 50,516 nob-vine (unpaid) reviews, 25,300 (50.08%) were 5-star reviews.
+
+## Summary 
 What these numbers seems to suggest is that there is not strong bias **toward** five-star reviews from paid Amazon Vine reviewers. If anything, Vine reviews might show a tendency towards being more critical in their reviews. This conclusion could be further examined by looking at the distribution of all star-levels across paid and unpaid reviews. Also, for a more thorough analysis, this same meta-analysis should be conducted across a few different product catagories.
