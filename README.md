@@ -22,7 +22,6 @@ There were 50,516 non-vine (unpaid) reviewers and 607 vine (paid) reviews.
 
 - Five-star Paid and Unpaid Reviews
 ![Five-star Paid and Unpaid Reviews](Images/paid-unpaid-5star-reviews.png)
-
 There were 25,300 non-vine (unpaid) 5-star reviewers and 257 vine (paid) 5-star reviewers.
 
 - Five-star reviews as percent of paid reviews
