@@ -14,6 +14,7 @@ The available reviews from the chosen dataset was filtered to just those with mo
 
 
 Results of the calculation from the filtered dataset are shown below:
+
 ![Paid and Unpaid Reviews](images/calc_paid_and_unpaid.png)
 * There were 50,516 non-vine (unpaid) reviewers and 607 vine (paid) reviews.
 
